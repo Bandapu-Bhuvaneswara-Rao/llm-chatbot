@@ -20,7 +20,6 @@ TinyLlama
 Axios
 
 REST APIs
-
 ✨ Features
 _______________________
 Real-time AI responses
