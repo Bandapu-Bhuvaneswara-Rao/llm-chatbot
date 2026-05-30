@@ -17,11 +17,11 @@ function Chatbot() {
             setLoading(true);
 
             const res = await axios.post(
-                "http://localhost:5000/api/chat",
-                {
-                    message,
-                }
-            );
+    "https://llm-chatbot-el2e.onrender.com/api/chat",
+    {
+        message,
+    }
+);
 
             setReply(res.data.reply);
 
